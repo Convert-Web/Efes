@@ -16,7 +16,7 @@ window.EFES = {
     telephoneIntl: '+33164700366',
     /* Numéro MOBILE qui reçoit les commandes sur WhatsApp (format international, sans +), ex. '33612345678'.
        Vide = pas de WhatsApp : le client voit sa commande à l'écran et appelle le restaurant pour la passer. */
-    whatsapp: '',
+    whatsapp: '33763676191',        // numéro de démonstration (ConvertWEB) : mettre le mobile du restaurant à la signature
     email: null,                      // ['nom', 'domaine.fr'] : écrit en deux morceaux contre les robots de spam
     uberEats: '',
     googleMaps: 'https://www.google.com/maps/search/?api=1&query=Efes+88+rue+Jean+Jaur%C3%A8s+77130+Montereau-Fault-Yonne',

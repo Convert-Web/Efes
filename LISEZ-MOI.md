@@ -11,14 +11,14 @@ Tout se fait dans `js/donnees.js` :
 - **Produits** : `prix` = prix seul ; `menu` = prix « avec frites » (sandwichs) ; `option: 'sauces'` = sauce obligatoire au choix ; `photo` = photo d'illustration.
 - **Listes** : sauces, boissons et suppléments (fromage 0,50 €, œuf 1,00 €) sont en haut du fichier.
 
-Après une modification, changer `?v=20261110a` dans les 5 fichiers HTML pour forcer la mise à jour chez les visiteurs.
+Après une modification, changer `?v=20261110b` dans les 5 fichiers HTML pour forcer la mise à jour chez les visiteurs.
 
 ## Comment le client commande
 
-Le restaurant n'a que des lignes fixes (01 64 70 03 66, 09 67 39 94 17) : pas de WhatsApp.
-Le client compose son panier, choisit son heure de retrait, puis le site **affiche sa commande prête à lire** avec un bouton « Appeler ».
+Le client compose son panier, choisit son heure de retrait, et la commande part toute écrite sur WhatsApp.
 
-**Passer à la commande WhatsApp** : mettre un numéro de **mobile** dans `whatsapp: '33612345678'` (format international, sans +). La commande part alors toute écrite sur WhatsApp, comme sur le site du Touareg.
+**Numéro WhatsApp** : pour la démonstration, c'est celui de ConvertWEB (07 63 67 61 91). À la signature, mettre le **mobile du restaurant** dans `whatsapp: '336…'` (format international, sans +).
+Si `whatsapp` est vide (le restaurant n'a que des fixes : 01 64 70 03 66, 09 67 39 94 17), le site passe en commande par téléphone : il affiche la commande prête à lire avec un bouton « Appeler ».
 
 ## Points à vérifier avec le gérant
 
